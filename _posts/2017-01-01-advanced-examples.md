@@ -1,6 +1,6 @@
 ---
 title:  "Your Result Summary"
-mathjax: false
+mathjax: true
 layout: post
 categories: media
 ---
