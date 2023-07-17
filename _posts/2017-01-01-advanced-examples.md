@@ -1,26 +1,24 @@
 ---
-title:  "Advanced examples"
-mathjax: true
+title:  "Your Result Summary"
+mathjax: false
 layout: post
 categories: media
 ---
 
-![Swiss Alps](https://user-images.githubusercontent.com/4943215/55412536-edbba180-5567-11e9-9c70-6d33bca3f8ed.jpg)
+<iframe title="Results" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=8abbdc4c-92f2-47ec-b203-451cf5675377&autoAuth=true&ctid=5564f8ab-c589-4a4d-8c9e-1354800afc71" frameborder="0" allowFullScreen="true"></iframe>
 
 
 
-## Images
+## Lusail Museum painting displayed at the National Potrait Gallery
 
-Upload an image to the *assets* folder and embed it with `![title](/assets/name.jpg))`. Keep in mind that the path needs to be adjusted if Jekyll is run inside a subfolder.
+![LM](/assets/NPGDiallo.jpg.jpg)
 
-A wrapper `div` with the class `large` can be used to increase the width of an image or iframe.
+Ayuba Suleiman Diallo, called Job ben Solomon
+by William Hoare of Bath, 1733
+Oil on canvas
+L245
+Property of Qatar Museums Authority
 
-![Flower](https://user-images.githubusercontent.com/4943215/55412447-bcdb6c80-5567-11e9-8d12-b1e35fd5e50c.jpg)
+## A sneak peak to Lusail Museum
 
-[Flower](https://unsplash.com/photos/iGrsa9rL11o) by Tj Holowaychuk
-
-## Embedded content
-
-You can also embed a lot of stuff, for example from YouTube, using the `embed.html` include.
-
-{% include embed.html url="https://www.youtube.com/embed/_C0A5zX-iqM" %}
+{% include embed.html url="https://www.youtube.com/embed/ocipW_Z1KR4" %}
