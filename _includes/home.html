@@ -5,6 +5,7 @@
       {% include meta.html post=post preview=false %}
       {{ post.content }}
     </article>
+  </article> <!-- Closing tag for the first <article> element -->
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}
